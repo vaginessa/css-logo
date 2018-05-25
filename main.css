@@ -4,4 +4,19 @@ body {
 
 .letter {
   width: 8vw;
+  transition: 0.5s;
+}
+
+.letter:hover {
+  filter: hue-rotate(90deg);
+  width: 8.5vw;
+}
+
+.logo {
+  position: absolute;
+  margin: auto;
+  top: 40vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
